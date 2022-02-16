@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+#listOfBeer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 50px 20px;
+    border: 2px solid #ddc80b;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;    
+}
+
+.name,
+.tagline,
+.image_url,
+.description {
+    margin: 10px 5px;
+}
+
+.name{
+    font-size: 32px;
+    color: rgb(248, 9, 9);
+}
+
+.tagline{
+    font-size: 20px;
+    color: rgb(20, 16, 238);
+}
+
+.image{
+    width: 100px;
+    height: 400px;   
+}
+.description{
+    font-size: 18px;
+    text-align: justify;
+}
